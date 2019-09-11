@@ -353,6 +353,8 @@
   #include "lpc1768/pins_BIQU_B300_V1.0.h"      // LPC1768                                env:LPC1768
 #elif MB(BIGTREE_SKR_V1_3)
   #include "lpc1768/pins_BIGTREE_SKR_V1.3.h"    // LPC1768                                env:LPC1768
+#elif MB(BIGTREE_SKR_V1_3_MPCNC)
+  #include "lpc1768/pins_BIGTREE_SKR_V1.3_MPCNC.h" // LPC1768                                env:LPC1768
 #elif MB(GMARSH_X6_REV1)
   #include "lpc1768/pins_GMARSH_X6_REV1.h"      // LPC1768                                env:LPC1768
 
